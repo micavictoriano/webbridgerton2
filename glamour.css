@@ -1,5 +1,5 @@
 .glamour-page {
-	background-color: var(--rose);
+	background-color: #b8b1b0;
 	font-family: "Cormorant Garamond", Georgia, serif;
 }
 
@@ -201,12 +201,6 @@
 	height: clamp(220px, 32vw, 390px);
 	object-fit: cover;
 	object-position: center top;
-	transition: transform 200ms ease;
-}
-
-.dress-card:hover img,
-.dress-card:focus-within img {
-	transform: scale(1.03);
 }
 
 .dress-card figcaption {
